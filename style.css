@@ -1,0 +1,53 @@
+
+body {
+  margin: 0;
+  background-color: rgb(226, 241, 254);
+}
+#container {
+  display:flex;
+  flex-direction: column;
+}
+.image {
+  border: 0px solid black;
+}
+img{
+  width: 300px;
+  height: auto;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 50%;
+}
+.extra {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+div {
+  border: 1px solid rgb(0, 0, 0);
+  margin: 7px;
+}
+h1{
+  text-align: center;
+  animation: effect 3s linear infinite;
+}
+ @keyframes effect {
+        0% {
+           color: blueviolet;
+        }
+ 
+        100% {
+            color: skyblue;
+        }
+    }
+  h3, h4{
+    margin-left: 5px;
+  }
+  ul li{
+    font-size: 15px;
+    color: rgb(15, 15, 16);
+    margin: 8px;
+  }
+ 
+  p{
+    line-height: 1.5;
+    margin: 3px;
+  }
